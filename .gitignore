@@ -118,7 +118,8 @@ test
 *.sublime-project
 *.sublime-workspace
 
-### VisualStudioCode
+# VisualStudioCode
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
