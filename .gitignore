@@ -23,6 +23,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.pyc
 MANIFEST
 
 # PyInstaller
@@ -83,12 +84,14 @@ celerybeat-schedule
 
 # Environments
 .env
+env*/
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+tmp/
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +105,26 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#others
+*~
+Data.fs*
+.*.sw?
+.sw?
+.DS_Store
+test
+
+# Sublime-Text project settings
+*.sublime-project
+*.sublime-workspace
+
+### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
